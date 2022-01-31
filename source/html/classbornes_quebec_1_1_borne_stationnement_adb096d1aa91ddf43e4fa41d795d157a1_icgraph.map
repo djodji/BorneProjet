@@ -1,0 +1,4 @@
+<map id="bornesQuebec::BorneStationnement::reqSegmentRue" name="bornesQuebec::BorneStationnement::reqSegmentRue">
+<area shape="rect" id="node1" title="Accesseur l’identifiant du segment de voie publique." alt="" coords="108,5,365,47"/>
+<area shape="rect" id="node2" href="$_borne_stationnement_testeur_8cpp.html#ae9da3c3b79a37c339c9af99b489eb2c0" title="Test du Constructeur Cas valides: Création d&#39;un objet BorneStationnement et verification de l’assigna..." alt="" coords="5,13,60,39"/>
+</map>

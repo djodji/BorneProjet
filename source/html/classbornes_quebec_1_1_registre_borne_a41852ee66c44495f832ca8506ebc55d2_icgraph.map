@@ -1,0 +1,5 @@
+<map id="bornesQuebec::RegistreBorne::reqVBornes" name="bornesQuebec::RegistreBorne::reqVBornes">
+<area shape="rect" id="node1" title="Accesseur pour la version du vecteur." alt="" coords="268,39,483,80"/>
+<area shape="rect" id="node2" href="$classbornes_quebec_1_1_registre_borne.html#a20158e9eb72265914b64c3a43aaa159b" title="L’opérateur d&#39;assignation." alt="" coords="5,5,220,47"/>
+<area shape="rect" id="node3" href="$classbornes_quebec_1_1_registre_borne.html#aba7564e751a84cef5e1d659a922472be" title="Constructeur copie Création d&#39;un objet RegistreBorne à partir d&#39;un autre RegistreBorne passées en par..." alt="" coords="5,71,220,112"/>
+</map>

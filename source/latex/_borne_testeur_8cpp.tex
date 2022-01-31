@@ -1,0 +1,130 @@
+\hypertarget{_borne_testeur_8cpp}{}\doxysection{tests/\+Borne\+Testeur.cpp File Reference}
+\label{_borne_testeur_8cpp}\index{tests/BorneTesteur.cpp@{tests/BorneTesteur.cpp}}
+
+
+Implantation des tests unitaires de la classe Borne Borne étant une classe abstraite, on crée une classe concrète dérivée de cette classe afin de pouvoir effectuer les tests.  
+
+
+{\ttfamily \#include $<$gtest/gtest.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Borne.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Contrat\+Exception.\+h\char`\"{}}\newline
+Include dependency graph for Borne\+Testeur.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_borne_testeur_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_borne_de_test}{Borne\+De\+Test}}
+\begin{DoxyCompactList}\small\item\em classe de test permettant de tester la classe abstraite Borne \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_un_borne}{Un\+Borne}}
+\begin{DoxyCompactList}\small\item\em Création d\textquotesingle{}une fixture à utiliser pour les méthodes public de la classe de test. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_borne_testeur_8cpp_a15f4544066f44ed9af7d204fa0b49564}\label{_borne_testeur_8cpp_a15f4544066f44ed9af7d204fa0b49564}} 
+\mbox{\hyperlink{_borne_testeur_8cpp_a15f4544066f44ed9af7d204fa0b49564}{T\+E\+ST}} (\mbox{\hyperlink{classbornes_quebec_1_1_borne}{Borne}}, Constructeur\+Avec\+Parametre)
+\begin{DoxyCompactList}\small\item\em Test du Constructeur Cas valides\+: Création d\textquotesingle{}un objet Borne et verification de l’assignation de tous les attributs Cas invalides\+: identifiant $<$=0 direction autre que \{\char`\"{}\+Nord\char`\"{}, \char`\"{}\+Sud\char`\"{}, \char`\"{}\+Est\char`\"{}, \char`\"{}\+Ouest\char`\"{}, \char`\"{}null\char`\"{}\}; nom\+Topographique vide. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_borne_testeur_8cpp_a14dfb4c6893ffafffa87d0263f692b47}\label{_borne_testeur_8cpp_a14dfb4c6893ffafffa87d0263f692b47}} 
+{\bfseries T\+E\+ST} (\mbox{\hyperlink{classbornes_quebec_1_1_borne}{Borne}}, Constructeur\+Invalide\+Identifiant)
+\item 
+\mbox{\Hypertarget{_borne_testeur_8cpp_a8c5c709fd29bb0e765491b48a7ac0947}\label{_borne_testeur_8cpp_a8c5c709fd29bb0e765491b48a7ac0947}} 
+{\bfseries T\+E\+ST} (\mbox{\hyperlink{classbornes_quebec_1_1_borne}{Borne}}, Constructeur\+Invalide\+Direction)
+\item 
+\mbox{\Hypertarget{_borne_testeur_8cpp_af8af03702d7d794c889ff9276dd4f174}\label{_borne_testeur_8cpp_af8af03702d7d794c889ff9276dd4f174}} 
+{\bfseries T\+E\+ST} (\mbox{\hyperlink{classbornes_quebec_1_1_borne}{Borne}}, Constructeur\+Invalide\+Nom\+Topographique)
+\item 
+\mbox{\Hypertarget{_borne_testeur_8cpp_ad3d49663bd2c5bb80ad49603cd7d77ee}\label{_borne_testeur_8cpp_ad3d49663bd2c5bb80ad49603cd7d77ee}} 
+\mbox{\hyperlink{_borne_testeur_8cpp_ad3d49663bd2c5bb80ad49603cd7d77ee}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{class_un_borne}{Un\+Borne}}, asg\+Nom\+Topographique\+Valid)
+\begin{DoxyCompactList}\small\item\em Test de la méthode void asg\+Nom\+Topographique (string\& p\+\_\+nom\+Topographique) Cas valide\+: assignation d\textquotesingle{}un nom topographique. Cas invalide\+: nom vide. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_borne_testeur_8cpp_ac99daf38fb6092d9e6d5b73aa9c16da4}\label{_borne_testeur_8cpp_ac99daf38fb6092d9e6d5b73aa9c16da4}} 
+{\bfseries T\+E\+S\+T\+\_\+F} (\mbox{\hyperlink{class_un_borne}{Un\+Borne}}, asg\+Nom\+Topographique\+Invalid)
+\item 
+\mbox{\hyperlink{_borne_testeur_8cpp_a3ee6b74f30331c52bf8c4e27b93a33e2}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{class_un_borne}{Un\+Borne}}, req\+Identifiant)
+\item 
+\mbox{\hyperlink{_borne_testeur_8cpp_a25b6fad77b561dfd076e207bd165c556}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{class_un_borne}{Un\+Borne}}, req\+Direction)
+\item 
+\mbox{\hyperlink{_borne_testeur_8cpp_a39d0a3cbd85655bff638ddb00f5d5711}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{class_un_borne}{Un\+Borne}}, req\+Nom\+Topographique)
+\item 
+\mbox{\hyperlink{_borne_testeur_8cpp_a5b1f87b203fc3145764960c83e08c3c3}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{class_un_borne}{Un\+Borne}}, req\+Longitude)
+\item 
+\mbox{\hyperlink{_borne_testeur_8cpp_a19a8dbb20f66a00191f396e7ce0b242f}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{class_un_borne}{Un\+Borne}}, req\+Latitude)
+\item 
+\mbox{\hyperlink{_borne_testeur_8cpp_af5cff7ce14ea6529e096d3dc5120230f}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{class_un_borne}{Un\+Borne}}, Comparaion\+Deux\+Borne\+Cas\+Egeaux)
+\item 
+\mbox{\hyperlink{_borne_testeur_8cpp_aa39d698cacef99f88cb734a68e84148e}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{class_un_borne}{Un\+Borne}}, req\+Borne\+Formate)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implantation des tests unitaires de la classe Borne Borne étant une classe abstraite, on crée une classe concrète dérivée de cette classe afin de pouvoir effectuer les tests. 
+
+\begin{DoxyAuthor}{Author}
+Abdelhafid El kanfoud 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4 avril 2011 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_borne_testeur_8cpp_af5cff7ce14ea6529e096d3dc5120230f}\label{_borne_testeur_8cpp_af5cff7ce14ea6529e096d3dc5120230f}} 
+\index{BorneTesteur.cpp@{BorneTesteur.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!BorneTesteur.cpp@{BorneTesteur.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [1/7]}}
+{\footnotesize\ttfamily T\+E\+S\+T\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_un_borne}{Un\+Borne}}}]{,  }\item[{Comparaion\+Deux\+Borne\+Cas\+Egeaux}]{ }\end{DoxyParamCaption})}
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000013}{Test}}]Test de la méthode bool operator== (const Borne\& p\+\_\+borne) const; Cas valide\+: vérifier le retour de comparaison entre deux objets Bones Cas invalide\+: aucun \end{DoxyRefDesc}
+\mbox{\Hypertarget{_borne_testeur_8cpp_aa39d698cacef99f88cb734a68e84148e}\label{_borne_testeur_8cpp_aa39d698cacef99f88cb734a68e84148e}} 
+\index{BorneTesteur.cpp@{BorneTesteur.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!BorneTesteur.cpp@{BorneTesteur.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [2/7]}}
+{\footnotesize\ttfamily T\+E\+S\+T\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_un_borne}{Un\+Borne}}}]{,  }\item[{req\+Borne\+Formate}]{ }\end{DoxyParamCaption})}
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000014}{Test}}]Test de la méthode virtual string req\+Borne\+Formate () const = 0; Cas valide\+: vérifier le retour des information sur l\textquotesingle{}objets Borne formaté Cas invalide\+: aucun \end{DoxyRefDesc}
+\mbox{\Hypertarget{_borne_testeur_8cpp_a25b6fad77b561dfd076e207bd165c556}\label{_borne_testeur_8cpp_a25b6fad77b561dfd076e207bd165c556}} 
+\index{BorneTesteur.cpp@{BorneTesteur.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!BorneTesteur.cpp@{BorneTesteur.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [3/7]}}
+{\footnotesize\ttfamily T\+E\+S\+T\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_un_borne}{Un\+Borne}}}]{,  }\item[{req\+Direction}]{ }\end{DoxyParamCaption})}
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000009}{Test}}]Test de la méthode req\+Direction() Cas valide\+: vérifier le retour de la direction Cas invalide\+: aucun \end{DoxyRefDesc}
+\mbox{\Hypertarget{_borne_testeur_8cpp_a3ee6b74f30331c52bf8c4e27b93a33e2}\label{_borne_testeur_8cpp_a3ee6b74f30331c52bf8c4e27b93a33e2}} 
+\index{BorneTesteur.cpp@{BorneTesteur.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!BorneTesteur.cpp@{BorneTesteur.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [4/7]}}
+{\footnotesize\ttfamily T\+E\+S\+T\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_un_borne}{Un\+Borne}}}]{,  }\item[{req\+Identifiant}]{ }\end{DoxyParamCaption})}
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000008}{Test}}]Test de la méthode req\+Identifiant() Cas valide\+: vérifier le retour de l\textquotesingle{}identifiant Cas invalide\+: aucun \end{DoxyRefDesc}
+\mbox{\Hypertarget{_borne_testeur_8cpp_a19a8dbb20f66a00191f396e7ce0b242f}\label{_borne_testeur_8cpp_a19a8dbb20f66a00191f396e7ce0b242f}} 
+\index{BorneTesteur.cpp@{BorneTesteur.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!BorneTesteur.cpp@{BorneTesteur.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [5/7]}}
+{\footnotesize\ttfamily T\+E\+S\+T\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_un_borne}{Un\+Borne}}}]{,  }\item[{req\+Latitude}]{ }\end{DoxyParamCaption})}
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000012}{Test}}]Test de la méthode req\+Latitude() Cas valide\+: vérifier le retour du latitude Cas invalide\+: aucun \end{DoxyRefDesc}
+\mbox{\Hypertarget{_borne_testeur_8cpp_a5b1f87b203fc3145764960c83e08c3c3}\label{_borne_testeur_8cpp_a5b1f87b203fc3145764960c83e08c3c3}} 
+\index{BorneTesteur.cpp@{BorneTesteur.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!BorneTesteur.cpp@{BorneTesteur.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [6/7]}}
+{\footnotesize\ttfamily T\+E\+S\+T\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_un_borne}{Un\+Borne}}}]{,  }\item[{req\+Longitude}]{ }\end{DoxyParamCaption})}
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000011}{Test}}]Test de la méthode req\+Longitude() Cas valide\+: vérifier le retour du longitude Cas invalide\+: aucun \end{DoxyRefDesc}
+\mbox{\Hypertarget{_borne_testeur_8cpp_a39d0a3cbd85655bff638ddb00f5d5711}\label{_borne_testeur_8cpp_a39d0a3cbd85655bff638ddb00f5d5711}} 
+\index{BorneTesteur.cpp@{BorneTesteur.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!BorneTesteur.cpp@{BorneTesteur.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [7/7]}}
+{\footnotesize\ttfamily T\+E\+S\+T\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_un_borne}{Un\+Borne}}}]{,  }\item[{req\+Nom\+Topographique}]{ }\end{DoxyParamCaption})}
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000010}{Test}}]Test de la méthode req\+Nom\+Topographique() Cas valide\+: vérifier le retour du nom topographique Cas invalide\+: aucun \end{DoxyRefDesc}

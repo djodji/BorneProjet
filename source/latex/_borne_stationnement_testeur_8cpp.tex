@@ -1,0 +1,113 @@
+\hypertarget{_borne_stationnement_testeur_8cpp}{}\doxysection{tests/\+Borne\+Stationnement\+Testeur.cpp File Reference}
+\label{_borne_stationnement_testeur_8cpp}\index{tests/BorneStationnementTesteur.cpp@{tests/BorneStationnementTesteur.cpp}}
+
+
+Implantation des tests unitaires de la classe Borne\+Stationnement.  
+
+
+{\ttfamily \#include $<$gtest/gtest.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Borne\+Stationnement.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Contrat\+Exception.\+h\char`\"{}}\newline
+Include dependency graph for Borne\+Stationnement\+Testeur.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_borne_stationnement_testeur_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_un_borne_stationnement}{Un\+Borne\+Stationnement}}
+\begin{DoxyCompactList}\small\item\em Création d\textquotesingle{}une fixture à utiliser pour les méthodes public de la classe de test. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_borne_stationnement_testeur_8cpp_ae9da3c3b79a37c339c9af99b489eb2c0}\label{_borne_stationnement_testeur_8cpp_ae9da3c3b79a37c339c9af99b489eb2c0}} 
+\mbox{\hyperlink{_borne_stationnement_testeur_8cpp_ae9da3c3b79a37c339c9af99b489eb2c0}{T\+E\+ST}} (\mbox{\hyperlink{classbornes_quebec_1_1_borne_fontaine}{Borne\+Fontaine}}, Constructeur\+Defaut)
+\begin{DoxyCompactList}\small\item\em Test du Constructeur Cas valides\+: Création d\textquotesingle{}un objet Borne\+Stationnement et verification de l’assignation de tous les attributs Cas invalides\+: Type autre que « stationnement », ou « paiement ». Lecture\+Metrique $<$= 0. Le numéro de la borne n\textquotesingle{}est pas composé de 1 à 4 chiffres. Le coté ne correspondre pas à un point cardinal. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_borne_stationnement_testeur_8cpp_a5efcab895b14dfd4d8be00222385dc5a}\label{_borne_stationnement_testeur_8cpp_a5efcab895b14dfd4d8be00222385dc5a}} 
+{\bfseries T\+E\+ST} (\mbox{\hyperlink{classbornes_quebec_1_1_borne_fontaine}{Borne\+Fontaine}}, Constructeur\+Type\+Invalide)
+\item 
+\mbox{\Hypertarget{_borne_stationnement_testeur_8cpp_aa292e66e3585b340f09829fe032adbff}\label{_borne_stationnement_testeur_8cpp_aa292e66e3585b340f09829fe032adbff}} 
+{\bfseries T\+E\+ST} (\mbox{\hyperlink{classbornes_quebec_1_1_borne_fontaine}{Borne\+Fontaine}}, Constructeur\+Lecture\+Metrique\+Invalide)
+\item 
+\mbox{\Hypertarget{_borne_stationnement_testeur_8cpp_a3c8c634fc452ef615a4f01b3a43616d2}\label{_borne_stationnement_testeur_8cpp_a3c8c634fc452ef615a4f01b3a43616d2}} 
+{\bfseries T\+E\+ST} (\mbox{\hyperlink{classbornes_quebec_1_1_borne_fontaine}{Borne\+Fontaine}}, Constructeur\+Num\+Borne\+Invalide)
+\item 
+\mbox{\Hypertarget{_borne_stationnement_testeur_8cpp_a8a95d8d6f3172ea3f104b6bf8af9921d}\label{_borne_stationnement_testeur_8cpp_a8a95d8d6f3172ea3f104b6bf8af9921d}} 
+{\bfseries T\+E\+ST} (\mbox{\hyperlink{classbornes_quebec_1_1_borne_fontaine}{Borne\+Fontaine}}, Constructeur\+Cote\+Rue\+Invalide)
+\item 
+\mbox{\hyperlink{_borne_stationnement_testeur_8cpp_a89728395f9f17f66a3800ed9825ab21d}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{class_un_borne_stationnement}{Un\+Borne\+Stationnement}}, req\+Type)
+\item 
+\mbox{\hyperlink{_borne_stationnement_testeur_8cpp_a6d45e4e841447398c83242de961d1460}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{class_un_borne_stationnement}{Un\+Borne\+Stationnement}}, req\+Lecture\+Metrique)
+\item 
+\mbox{\hyperlink{_borne_stationnement_testeur_8cpp_a99f7134f7c7bf933e996eca3594f4067}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{class_un_borne_stationnement}{Un\+Borne\+Stationnement}}, req\+Segment\+Rue)
+\item 
+\mbox{\hyperlink{_borne_stationnement_testeur_8cpp_aa9eac715dfeb7fa72c7edab55d321723}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{class_un_borne_stationnement}{Un\+Borne\+Stationnement}}, req\+Num\+Borne)
+\item 
+\mbox{\hyperlink{_borne_stationnement_testeur_8cpp_a00c69efc4c25bd2502b9d395a1908924}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{class_un_borne_stationnement}{Un\+Borne\+Stationnement}}, req\+Cote\+Rue)
+\item 
+\mbox{\Hypertarget{_borne_stationnement_testeur_8cpp_abc403c6da9e73a7eea536457d28e9f2a}\label{_borne_stationnement_testeur_8cpp_abc403c6da9e73a7eea536457d28e9f2a}} 
+\mbox{\hyperlink{_borne_stationnement_testeur_8cpp_abc403c6da9e73a7eea536457d28e9f2a}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{class_un_borne_stationnement}{Un\+Borne\+Stationnement}}, clone)
+\begin{DoxyCompactList}\small\item\em Test de la méthode clone() Cas valide\+: faire une copie allouée sur le monceau de l\textquotesingle{}objet Borne\+Stationnement courant Cas invalide\+: aucun. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_borne_stationnement_testeur_8cpp_a11658ed3bf5e85bc1741764b474c577e}\label{_borne_stationnement_testeur_8cpp_a11658ed3bf5e85bc1741764b474c577e}} 
+\mbox{\hyperlink{_borne_stationnement_testeur_8cpp_a11658ed3bf5e85bc1741764b474c577e}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{class_un_borne_stationnement}{Un\+Borne\+Stationnement}}, req\+Borne\+Formate)
+\begin{DoxyCompactList}\small\item\em Test de la méthode string req\+Borne\+Formate() Cas valides\+: vérifier le retour des information sur l\textquotesingle{}objets Borne\+Stationnement formatés Cas invalides\+: aucun. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implantation des tests unitaires de la classe Borne\+Stationnement. 
+
+\begin{DoxyAuthor}{Author}
+Abdelhafid El kanfoud 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4 avril 2011 $\ast$ 
+
+2 juin 2011 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_borne_stationnement_testeur_8cpp_a00c69efc4c25bd2502b9d395a1908924}\label{_borne_stationnement_testeur_8cpp_a00c69efc4c25bd2502b9d395a1908924}} 
+\index{BorneStationnementTesteur.cpp@{BorneStationnementTesteur.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!BorneStationnementTesteur.cpp@{BorneStationnementTesteur.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily T\+E\+S\+T\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_un_borne_stationnement}{Un\+Borne\+Stationnement}}}]{,  }\item[{req\+Cote\+Rue}]{ }\end{DoxyParamCaption})}
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000007}{Test}}]Test de la méthode req\+Cote\+Rue() Cas valide\+: vérifier le retour du coté par rapport au centre de chaussée où est la borne. Cas invalide\+: aucun \end{DoxyRefDesc}
+\mbox{\Hypertarget{_borne_stationnement_testeur_8cpp_a6d45e4e841447398c83242de961d1460}\label{_borne_stationnement_testeur_8cpp_a6d45e4e841447398c83242de961d1460}} 
+\index{BorneStationnementTesteur.cpp@{BorneStationnementTesteur.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!BorneStationnementTesteur.cpp@{BorneStationnementTesteur.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+{\footnotesize\ttfamily T\+E\+S\+T\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_un_borne_stationnement}{Un\+Borne\+Stationnement}}}]{,  }\item[{req\+Lecture\+Metrique}]{ }\end{DoxyParamCaption})}
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000004}{Test}}]Test de la méthode req\+Lecture\+Metrique() Cas valide\+: vérifier le retour de la distance mesurée à partir du début du tronçon dans le sens des numéros d\textquotesingle{}immeuble Cas invalide\+: aucun \end{DoxyRefDesc}
+\mbox{\Hypertarget{_borne_stationnement_testeur_8cpp_aa9eac715dfeb7fa72c7edab55d321723}\label{_borne_stationnement_testeur_8cpp_aa9eac715dfeb7fa72c7edab55d321723}} 
+\index{BorneStationnementTesteur.cpp@{BorneStationnementTesteur.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!BorneStationnementTesteur.cpp@{BorneStationnementTesteur.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+{\footnotesize\ttfamily T\+E\+S\+T\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_un_borne_stationnement}{Un\+Borne\+Stationnement}}}]{,  }\item[{req\+Num\+Borne}]{ }\end{DoxyParamCaption})}
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000006}{Test}}]Test de la méthode req\+Num\+Borne() Cas valide\+: vérifier le retour du numéro de la borne. Cas invalide\+: aucun \end{DoxyRefDesc}
+\mbox{\Hypertarget{_borne_stationnement_testeur_8cpp_a99f7134f7c7bf933e996eca3594f4067}\label{_borne_stationnement_testeur_8cpp_a99f7134f7c7bf933e996eca3594f4067}} 
+\index{BorneStationnementTesteur.cpp@{BorneStationnementTesteur.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!BorneStationnementTesteur.cpp@{BorneStationnementTesteur.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
+{\footnotesize\ttfamily T\+E\+S\+T\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_un_borne_stationnement}{Un\+Borne\+Stationnement}}}]{,  }\item[{req\+Segment\+Rue}]{ }\end{DoxyParamCaption})}
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000005}{Test}}]Test de la méthode req\+Segment\+Rue() Cas valide\+: vérifier le retour de l’identifiant du segment de voie publique Cas invalide\+: aucun \end{DoxyRefDesc}
+\mbox{\Hypertarget{_borne_stationnement_testeur_8cpp_a89728395f9f17f66a3800ed9825ab21d}\label{_borne_stationnement_testeur_8cpp_a89728395f9f17f66a3800ed9825ab21d}} 
+\index{BorneStationnementTesteur.cpp@{BorneStationnementTesteur.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!BorneStationnementTesteur.cpp@{BorneStationnementTesteur.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+{\footnotesize\ttfamily T\+E\+S\+T\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_un_borne_stationnement}{Un\+Borne\+Stationnement}}}]{,  }\item[{req\+Type}]{ }\end{DoxyParamCaption})}
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000003}{Test}}]Test de la méthode req\+Type() Cas valide\+: vérifier le retour de type de la Borne\+Stationnement Cas invalide\+: aucun \end{DoxyRefDesc}

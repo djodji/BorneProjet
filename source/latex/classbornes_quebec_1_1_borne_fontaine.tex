@@ -1,0 +1,202 @@
+\hypertarget{classbornes_quebec_1_1_borne_fontaine}{}\doxysection{bornes\+Quebec\+::Borne\+Fontaine Class Reference}
+\label{classbornes_quebec_1_1_borne_fontaine}\index{bornesQuebec::BorneFontaine@{bornesQuebec::BorneFontaine}}
+
+
+Classe dérivée de la classe \mbox{\hyperlink{classbornes_quebec_1_1_borne}{Borne}}.  
+
+
+
+
+{\ttfamily \#include $<$Borne\+Fontaine.\+h$>$}
+
+
+
+Inheritance diagram for bornes\+Quebec\+::Borne\+Fontaine\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=243pt]{classbornes_quebec_1_1_borne_fontaine__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for bornes\+Quebec\+::Borne\+Fontaine\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=243pt]{classbornes_quebec_1_1_borne_fontaine__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classbornes_quebec_1_1_borne_fontaine_a06dde9110408fde9dc855b3a109075be}{Borne\+Fontaine}} (const int p\+\_\+identifiant, const string \&p\+\_\+direction, const string \&p\+\_\+nom\+Topographique, const double p\+\_\+longitude, const double p\+\_\+latitude, const string \&p\+\_\+ville, const string \&p\+\_\+arrondissement)
+\begin{DoxyCompactList}\small\item\em Constructeur avec parametres Création d\textquotesingle{}un objet \mbox{\hyperlink{classbornes_quebec_1_1_borne}{Borne}} à partir de valeurs passées en paramètres. \end{DoxyCompactList}\item 
+const string \& \mbox{\hyperlink{classbornes_quebec_1_1_borne_fontaine_a0c1f63c0a212953a28ab709841d00074}{req\+Ville}} () const
+\begin{DoxyCompactList}\small\item\em Accesseur pour la ville. \end{DoxyCompactList}\item 
+const string \& \mbox{\hyperlink{classbornes_quebec_1_1_borne_fontaine_a622511e9a3c1c1a6da002f1e29ed4f37}{req\+Arrondissement}} () const
+\begin{DoxyCompactList}\small\item\em Accesseur pour l\textquotesingle{}arrondissement. \end{DoxyCompactList}\item 
+virtual string \mbox{\hyperlink{classbornes_quebec_1_1_borne_fontaine_a4af6a6ea62858667486a3a7eb11c31af}{req\+Borne\+Formate}} () const
+\begin{DoxyCompactList}\small\item\em Affiche les informations de l\textquotesingle{}objet \mbox{\hyperlink{classbornes_quebec_1_1_borne}{Borne}} fontaine sous forme d\textquotesingle{}une chaîne de caractère formatée. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classbornes_quebec_1_1_borne}{Borne}} $\ast$ \mbox{\hyperlink{classbornes_quebec_1_1_borne_fontaine_a92cefa4de50b9807cae85934bf4fb1b2}{clone}} () const
+\begin{DoxyCompactList}\small\item\em faire une copie allouée sur le monceau de l\textquotesingle{}objet \mbox{\hyperlink{classbornes_quebec_1_1_borne_fontaine}{Borne\+Fontaine}} courant. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe dérivée de la classe \mbox{\hyperlink{classbornes_quebec_1_1_borne}{Borne}}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classbornes_quebec_1_1_borne_fontaine_a06dde9110408fde9dc855b3a109075be}\label{classbornes_quebec_1_1_borne_fontaine_a06dde9110408fde9dc855b3a109075be}} 
+\index{bornesQuebec::BorneFontaine@{bornesQuebec::BorneFontaine}!BorneFontaine@{BorneFontaine}}
+\index{BorneFontaine@{BorneFontaine}!bornesQuebec::BorneFontaine@{bornesQuebec::BorneFontaine}}
+\doxysubsubsection{\texorpdfstring{BorneFontaine()}{BorneFontaine()}}
+{\footnotesize\ttfamily bornes\+Quebec\+::\+Borne\+Fontaine\+::\+Borne\+Fontaine (\begin{DoxyParamCaption}\item[{const int}]{p\+\_\+identifiant,  }\item[{const string \&}]{p\+\_\+direction,  }\item[{const string \&}]{p\+\_\+nom\+Topographique,  }\item[{const double}]{p\+\_\+longitude,  }\item[{const double}]{p\+\_\+latitude,  }\item[{const string \&}]{p\+\_\+ville,  }\item[{const string \&}]{p\+\_\+arrondissement }\end{DoxyParamCaption})}
+
+
+
+Constructeur avec parametres Création d\textquotesingle{}un objet \mbox{\hyperlink{classbornes_quebec_1_1_borne}{Borne}} à partir de valeurs passées en paramètres. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em p\+\_\+identifiant} & un entier qui représente L’identifiant de la borne. \\
+\hline
+\mbox{\texttt{ in}}  & {\em p\+\_\+direction} & un string qui représente Le côté du centre de chaussée ou l’intersection dans le cas d’un terre-\/plein. \\
+\hline
+\mbox{\texttt{ in}}  & {\em p\+\_\+nom\+Topographique} & un string qui représente Le nom topographique (générique, liaison, spécifique, direction) du centre de chaussée. \\
+\hline
+\mbox{\texttt{ in}}  & {\em p\+\_\+longitude} & un nombre réel qui représente La longitude. \\
+\hline
+\mbox{\texttt{ in}}  & {\em p\+\_\+latitude} & un nombre réel qui représente Le coté par rapport au centre de chaussée ou l’intersection dans le cas d’un terre-\/plein. \\
+\hline
+\mbox{\texttt{ in}}  & {\em p\+\_\+ville} & un string représente la ville dans lesquel se trouve la \mbox{\hyperlink{classbornes_quebec_1_1_borne_fontaine}{Borne\+Fontaine}}. \\
+\hline
+\mbox{\texttt{ in}}  & {\em p\+\_\+arrondissement} & un string représente l\textquotesingle{}arrondissement dans lesquel se trouve la \mbox{\hyperlink{classbornes_quebec_1_1_borne_fontaine}{Borne\+Fontaine}}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+p\+\_\+arrondissement ne doit pas être vide si p\+\_\+ville est « Québec » 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+m\+\_\+ville prend la valeur de p\+\_\+ville 
+
+m\+\_\+arrondissement prend la valeur de p\+\_\+arrondissement 
+\end{DoxyPostcond}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classbornes_quebec_1_1_borne_fontaine_a06dde9110408fde9dc855b3a109075be_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbornes_quebec_1_1_borne_fontaine_a92cefa4de50b9807cae85934bf4fb1b2}\label{classbornes_quebec_1_1_borne_fontaine_a92cefa4de50b9807cae85934bf4fb1b2}} 
+\index{bornesQuebec::BorneFontaine@{bornesQuebec::BorneFontaine}!clone@{clone}}
+\index{clone@{clone}!bornesQuebec::BorneFontaine@{bornesQuebec::BorneFontaine}}
+\doxysubsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classbornes_quebec_1_1_borne}{Borne}} $\ast$ bornes\+Quebec\+::\+Borne\+Fontaine\+::clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+faire une copie allouée sur le monceau de l\textquotesingle{}objet \mbox{\hyperlink{classbornes_quebec_1_1_borne_fontaine}{Borne\+Fontaine}} courant. 
+
+\begin{DoxyReturn}{Returns}
+une copie allouée sur le monceau de l\textquotesingle{}objet \mbox{\hyperlink{classbornes_quebec_1_1_borne_fontaine}{Borne\+Fontaine}} courant. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classbornes_quebec_1_1_borne}{bornes\+Quebec\+::\+Borne}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classbornes_quebec_1_1_borne_fontaine_a92cefa4de50b9807cae85934bf4fb1b2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{classbornes_quebec_1_1_borne_fontaine_a92cefa4de50b9807cae85934bf4fb1b2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classbornes_quebec_1_1_borne_fontaine_a622511e9a3c1c1a6da002f1e29ed4f37}\label{classbornes_quebec_1_1_borne_fontaine_a622511e9a3c1c1a6da002f1e29ed4f37}} 
+\index{bornesQuebec::BorneFontaine@{bornesQuebec::BorneFontaine}!reqArrondissement@{reqArrondissement}}
+\index{reqArrondissement@{reqArrondissement}!bornesQuebec::BorneFontaine@{bornesQuebec::BorneFontaine}}
+\doxysubsubsection{\texorpdfstring{reqArrondissement()}{reqArrondissement()}}
+{\footnotesize\ttfamily const string \& bornes\+Quebec\+::\+Borne\+Fontaine\+::req\+Arrondissement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur pour l\textquotesingle{}arrondissement. 
+
+\begin{DoxyReturn}{Returns}
+m\+\_\+arrondissement l\textquotesingle{}arrondissement. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{classbornes_quebec_1_1_borne_fontaine_a622511e9a3c1c1a6da002f1e29ed4f37_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classbornes_quebec_1_1_borne_fontaine_a4af6a6ea62858667486a3a7eb11c31af}\label{classbornes_quebec_1_1_borne_fontaine_a4af6a6ea62858667486a3a7eb11c31af}} 
+\index{bornesQuebec::BorneFontaine@{bornesQuebec::BorneFontaine}!reqBorneFormate@{reqBorneFormate}}
+\index{reqBorneFormate@{reqBorneFormate}!bornesQuebec::BorneFontaine@{bornesQuebec::BorneFontaine}}
+\doxysubsubsection{\texorpdfstring{reqBorneFormate()}{reqBorneFormate()}}
+{\footnotesize\ttfamily string bornes\+Quebec\+::\+Borne\+Fontaine\+::req\+Borne\+Formate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Affiche les informations de l\textquotesingle{}objet \mbox{\hyperlink{classbornes_quebec_1_1_borne}{Borne}} fontaine sous forme d\textquotesingle{}une chaîne de caractère formatée. 
+
+\begin{DoxyReturn}{Returns}
+une chaîne de caractère contient les informations de l\textquotesingle{}objet 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classbornes_quebec_1_1_borne_ad7fce9a194716bd47a127bd47ea76d62}{bornes\+Quebec\+::\+Borne}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classbornes_quebec_1_1_borne_fontaine_a4af6a6ea62858667486a3a7eb11c31af_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classbornes_quebec_1_1_borne_fontaine_a0c1f63c0a212953a28ab709841d00074}\label{classbornes_quebec_1_1_borne_fontaine_a0c1f63c0a212953a28ab709841d00074}} 
+\index{bornesQuebec::BorneFontaine@{bornesQuebec::BorneFontaine}!reqVille@{reqVille}}
+\index{reqVille@{reqVille}!bornesQuebec::BorneFontaine@{bornesQuebec::BorneFontaine}}
+\doxysubsubsection{\texorpdfstring{reqVille()}{reqVille()}}
+{\footnotesize\ttfamily const string \& bornes\+Quebec\+::\+Borne\+Fontaine\+::req\+Ville (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur pour la ville. 
+
+\begin{DoxyReturn}{Returns}
+m\+\_\+ville la ville. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=320pt]{classbornes_quebec_1_1_borne_fontaine_a0c1f63c0a212953a28ab709841d00074_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_borne_fontaine_8h}{Borne\+Fontaine.\+h}}\item 
+\mbox{\hyperlink{_borne_fontaine_8cpp}{Borne\+Fontaine.\+cpp}}\end{DoxyCompactItemize}

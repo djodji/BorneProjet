@@ -1,0 +1,3 @@
+<map id="util::validerPointCardinal" name="util::validerPointCardinal">
+<area shape="rect" id="node1" title="valide le format d’un point cardinal. Les valeurs possibles d’un point cardinal sont :Nord,..." alt="" coords="5,29,188,56"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="bornesQuebec::RegistreBorne::reqRegistreBorneFormate" name="bornesQuebec::RegistreBorne::reqRegistreBorneFormate">
+<area shape="rect" id="node1" title="Affiche les informations du registre de bornes. sous forme d&#39;une chaîne de caractère formatée." alt="" coords="5,5,220,47"/>
+<area shape="rect" id="node2" href="$classbornes_quebec_1_1_registre_borne.html#a1a49504d5dfedf3c3ea490ec938c9cc4" title="Accesseur pour la version du Registre." alt="" coords="268,5,483,47"/>
+</map>

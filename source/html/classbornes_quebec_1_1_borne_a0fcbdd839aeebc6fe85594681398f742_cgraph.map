@@ -1,0 +1,8 @@
+<map id="bornesQuebec::Borne::operator==" name="bornesQuebec::Borne::operator==">
+<area shape="rect" id="node1" title="L’opérateur de comparaison d’égalité. La comparaison se fait sur la base de tous les attributs." alt="" coords="5,136,167,177"/>
+<area shape="rect" id="node2" href="$classbornes_quebec_1_1_borne.html#afc6e63b9d199d4d532bbe08e49a0e922" title="Accesseur pour Le côté du centre de chaussée ou l’intersection dans le cas d’un terre&#45;plein." alt="" coords="223,5,384,47"/>
+<area shape="rect" id="node3" href="$classbornes_quebec_1_1_borne.html#a13f6da8b5005fdb2c6a07ff6865a1c91" title="Accesseur pour L’identifiant de la borne." alt="" coords="223,71,384,112"/>
+<area shape="rect" id="node4" href="$classbornes_quebec_1_1_borne.html#a6fa1c27314ac66260025b99827295e43" title="Accesseur pour La latitude." alt="" coords="223,136,384,177"/>
+<area shape="rect" id="node5" href="$classbornes_quebec_1_1_borne.html#ad2724bb86af393b866e16c55689862bb" title="Accesseur pour La longitude." alt="" coords="223,201,384,243"/>
+<area shape="rect" id="node6" href="$classbornes_quebec_1_1_borne.html#ac9c7e62084c979208962d297181d82c9" title="Accesseur pour LLe nom topographique (générique, liaison, spécifique, direction) du centre de chaussé..." alt="" coords="215,267,392,308"/>
+</map>

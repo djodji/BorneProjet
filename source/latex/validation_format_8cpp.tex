@@ -1,0 +1,72 @@
+\hypertarget{validation_format_8cpp}{}\doxysection{validation\+Format.\+cpp File Reference}
+\label{validation_format_8cpp}\index{validationFormat.cpp@{validationFormat.cpp}}
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include \char`\"{}validation\+Format.\+h\char`\"{}}\newline
+Include dependency graph for validation\+Format.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{validation_format_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{validation_format_8cpp_a5b440bef0fdc68c9feeb993a4c1c8750}\label{validation_format_8cpp_a5b440bef0fdc68c9feeb993a4c1c8750}} 
+bool {\bfseries util\+::valide\+Ligne\+C\+VS} (const std\+::string \&p\+\_\+ligne, std\+::ostringstream \&p\+\_\+parametres)
+\item 
+\mbox{\Hypertarget{validation_format_8cpp_aa1f835db4a5d592ba345068efa40d75b}\label{validation_format_8cpp_aa1f835db4a5d592ba345068efa40d75b}} 
+bool {\bfseries util\+::valider\+Geom} (const std\+::string \&p\+\_\+geom)
+\item 
+\mbox{\Hypertarget{validation_format_8cpp_a163655dfa65cca68106dec75c3e54b21}\label{validation_format_8cpp_a163655dfa65cca68106dec75c3e54b21}} 
+bool {\bfseries util\+::valide\+Stationnement\+G\+E\+O\+J\+S\+ON} (const std\+::string \&p\+\_\+enregistrement, std\+::ostringstream \&p\+\_\+attributs)
+\item 
+bool \mbox{\hyperlink{validation_format_8cpp_aa748a66ef94286dd5d698a452fb7de2e}{util\+::valider\+Point\+Cardinal}} (const std\+::string \&p\+\_\+cardinalite)
+\begin{DoxyCompactList}\small\item\em valide le format d’un point cardinal. Les valeurs possibles d’un point cardinal sont \+:Nord, Sud, Est, Ouest, null, « chaine vide » \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{validation_format_8cpp_a533de09f5595441cb014f269bbbca965}\label{validation_format_8cpp_a533de09f5595441cb014f269bbbca965}} 
+bool {\bfseries util\+::valider\+Ville} (const string \&p\+\_\+ville, const string \&p\+\_\+arrondissement)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+bdelhafid El kanfoud 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+22 février 2021, 20\+:11 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{validation_format_8cpp_aa748a66ef94286dd5d698a452fb7de2e}\label{validation_format_8cpp_aa748a66ef94286dd5d698a452fb7de2e}} 
+\index{validationFormat.cpp@{validationFormat.cpp}!validerPointCardinal@{validerPointCardinal}}
+\index{validerPointCardinal@{validerPointCardinal}!validationFormat.cpp@{validationFormat.cpp}}
+\doxysubsubsection{\texorpdfstring{validerPointCardinal()}{validerPointCardinal()}}
+{\footnotesize\ttfamily bool util\+::valider\+Point\+Cardinal (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{p\+\_\+cardinalite }\end{DoxyParamCaption})}
+
+
+
+valide le format d’un point cardinal. Les valeurs possibles d’un point cardinal sont \+:Nord, Sud, Est, Ouest, null, « chaine vide » 
+
+\begin{DoxyReturn}{Returns}
+un true si le format est valide sinon false 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{validation_format_8cpp_aa748a66ef94286dd5d698a452fb7de2e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{validation_format_8cpp_aa748a66ef94286dd5d698a452fb7de2e_icgraph}
+\end{center}
+\end{figure}

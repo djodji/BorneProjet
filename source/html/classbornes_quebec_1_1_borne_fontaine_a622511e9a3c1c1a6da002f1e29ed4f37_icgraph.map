@@ -1,0 +1,4 @@
+<map id="bornesQuebec::BorneFontaine::reqArrondissement" name="bornesQuebec::BorneFontaine::reqArrondissement">
+<area shape="rect" id="node1" title="Accesseur pour l&#39;arrondissement." alt="" coords="108,5,325,47"/>
+<area shape="rect" id="node2" href="$_borne_fontaine_taisteur_8cpp.html#ae9da3c3b79a37c339c9af99b489eb2c0" title="Test du Constructeur Cas valides: Création d&#39;un objet BorneFontaine et verification de l’assignation ..." alt="" coords="5,13,60,39"/>
+</map>

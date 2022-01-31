@@ -1,0 +1,5 @@
+<map id="bornesQuebec::BorneDejaPresenteException" name="bornesQuebec::BorneDejaPresenteException">
+<area shape="rect" id="node1" title="Cette classe permet de gérer l’exception de l’ajout d’un doublon de Borne dans la liste des bornes...." alt="" coords="5,155,253,196"/>
+<area shape="rect" id="node2" href="$classbornes_quebec_1_1_borne_exception.html" title="Cette classe permet de gérer les exceptions liées aux bornes." alt="" coords="17,80,242,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="60,5,199,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="bornesQuebec::Borne::reqBorneFormate" name="bornesQuebec::Borne::reqBorneFormate">
+<area shape="rect" id="node1" title="Affiche les informations de l&#39;objet Borne sous forme d&#39;une chaîne de caractère formatée." alt="" coords="311,71,472,112"/>
+<area shape="rect" id="node2" href="$classbornes_quebec_1_1_registre_borne.html#a949bbdac9abf3e6f4b86cb6ec4d1155b" title="ajouter une borne au vecteur de bornes seulement si la borne n’est pas déjà présente dans cette liste..." alt="" coords="27,5,241,47"/>
+<area shape="rect" id="node3" href="$classbornes_quebec_1_1_borne_fontaine.html#a4af6a6ea62858667486a3a7eb11c31af" title="Affiche les informations de l&#39;objet Borne fontaine sous forme d&#39;une chaîne de caractère formatée." alt="" coords="25,71,243,112"/>
+<area shape="rect" id="node4" href="$classbornes_quebec_1_1_borne_stationnement.html#acc8a1fbf319ec63020885702c81b5bd9" title="Affiche les informations de l&#39;objet Borne de stationnement sous forme d&#39;une chaîne de caractère forma..." alt="" coords="5,136,263,177"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="bornesQuebec::BorneFontaine::clone" name="bornesQuebec::BorneFontaine::clone">
+<area shape="rect" id="node1" title="faire une copie allouée sur le monceau de l&#39;objet BorneFontaine courant." alt="" coords="123,5,340,47"/>
+<area shape="rect" id="node2" href="$_borne_fontaine_taisteur_8cpp.html#a5952d28ab784b07a48a097deadb6d6b5" title="Test de la méthode clone() Cas valide: faire une copie allouée sur le monceau de l&#39;objet BorneBorneFo..." alt="" coords="5,13,75,39"/>
+</map>

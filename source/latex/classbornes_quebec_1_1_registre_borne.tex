@@ -1,0 +1,222 @@
+\hypertarget{classbornes_quebec_1_1_registre_borne}{}\doxysection{bornes\+Quebec\+::Registre\+Borne Class Reference}
+\label{classbornes_quebec_1_1_registre_borne}\index{bornesQuebec::RegistreBorne@{bornesQuebec::RegistreBorne}}
+
+
+Cette class permet la gestion des bornes-\/fontaines et de stationnement.  
+
+
+
+
+{\ttfamily \#include $<$Registre\+Borne.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classbornes_quebec_1_1_registre_borne_a20fb468b7f4f7215d487e5f9d664b2a1}{Registre\+Borne}} (const string \&p\+\_\+nom\+Registre\+Borne)
+\begin{DoxyCompactList}\small\item\em Constructeur avec parametres Création d\textquotesingle{}un objet \mbox{\hyperlink{classbornes_quebec_1_1_registre_borne}{Registre\+Borne}} à partir de valeurs passées en paramètres. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classbornes_quebec_1_1_registre_borne_aba7564e751a84cef5e1d659a922472be}{Registre\+Borne}} (const \mbox{\hyperlink{classbornes_quebec_1_1_registre_borne}{Registre\+Borne}} \&p\+\_\+registre\+Borne)
+\begin{DoxyCompactList}\small\item\em Constructeur copie Création d\textquotesingle{}un objet \mbox{\hyperlink{classbornes_quebec_1_1_registre_borne}{Registre\+Borne}} à partir d\textquotesingle{}un autre \mbox{\hyperlink{classbornes_quebec_1_1_registre_borne}{Registre\+Borne}} passées en paramètres. \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{classbornes_quebec_1_1_registre_borne}{Registre\+Borne}} \& \mbox{\hyperlink{classbornes_quebec_1_1_registre_borne_a20158e9eb72265914b64c3a43aaa159b}{operator=}} (const \mbox{\hyperlink{classbornes_quebec_1_1_registre_borne}{Registre\+Borne}} \&p\+\_\+registre\+Borne)
+\begin{DoxyCompactList}\small\item\em L’opérateur d\textquotesingle{}assignation. \end{DoxyCompactList}\item 
+const string \& \mbox{\hyperlink{classbornes_quebec_1_1_registre_borne_a1a49504d5dfedf3c3ea490ec938c9cc4}{req\+Nom\+Registre\+Borne}} () const
+\begin{DoxyCompactList}\small\item\em Accesseur pour la version du Registre. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classbornes_quebec_1_1_registre_borne_a949bbdac9abf3e6f4b86cb6ec4d1155b}{ajoute\+Borne}} (const \mbox{\hyperlink{classbornes_quebec_1_1_borne}{Borne}} \&p\+\_\+\+Borne)
+\begin{DoxyCompactList}\small\item\em ajouter une borne au vecteur de bornes seulement si la borne n’est pas déjà présente dans cette liste. Autrement, il ne « se passe rien », \end{DoxyCompactList}\item 
+const vector$<$ \mbox{\hyperlink{classbornes_quebec_1_1_borne}{Borne}} $\ast$ $>$ \& \mbox{\hyperlink{classbornes_quebec_1_1_registre_borne_a41852ee66c44495f832ca8506ebc55d2}{req\+V\+Bornes}} () const
+\begin{DoxyCompactList}\small\item\em Accesseur pour la version du vecteur. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classbornes_quebec_1_1_registre_borne_a05c08ed3e21c1b292eb004fd73419306}{req\+Registre\+Borne\+Formate}} () const
+\begin{DoxyCompactList}\small\item\em Affiche les informations du registre de bornes. sous forme d\textquotesingle{}une chaîne de caractère formatée. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classbornes_quebec_1_1_registre_borne_ad9b9b9bd6c7cf953d7408af6eba61e59}\label{classbornes_quebec_1_1_registre_borne_ad9b9b9bd6c7cf953d7408af6eba61e59}} 
+\mbox{\hyperlink{classbornes_quebec_1_1_registre_borne_ad9b9b9bd6c7cf953d7408af6eba61e59}{$\sim$\+Registre\+Borne}} ()
+\begin{DoxyCompactList}\small\item\em destructeur de l\textquotesingle{}objet \mbox{\hyperlink{classbornes_quebec_1_1_registre_borne}{Registre\+Borne}} \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classbornes_quebec_1_1_registre_borne_a00ecd86ae94aa8f55116974a1e25cb46}{verifier\+Borne\+Presente\+Pour\+Test}} (const \mbox{\hyperlink{classbornes_quebec_1_1_borne}{Borne}} \&p\+\_\+borne) const
+\begin{DoxyCompactList}\small\item\em méthode permet de vérifier si la borne est déjà dans le vecteur (sur la base de l’identifiant) pour l\textquotesingle{}utiliser dans les tests de l\textquotesingle{}operateur d\textquotesingle{}assignation . \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Cette class permet la gestion des bornes-\/fontaines et de stationnement. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classbornes_quebec_1_1_registre_borne_a20fb468b7f4f7215d487e5f9d664b2a1}\label{classbornes_quebec_1_1_registre_borne_a20fb468b7f4f7215d487e5f9d664b2a1}} 
+\index{bornesQuebec::RegistreBorne@{bornesQuebec::RegistreBorne}!RegistreBorne@{RegistreBorne}}
+\index{RegistreBorne@{RegistreBorne}!bornesQuebec::RegistreBorne@{bornesQuebec::RegistreBorne}}
+\doxysubsubsection{\texorpdfstring{RegistreBorne()}{RegistreBorne()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bornes\+Quebec\+::\+Registre\+Borne\+::\+Registre\+Borne (\begin{DoxyParamCaption}\item[{const string \&}]{p\+\_\+nom\+Registre\+Borne }\end{DoxyParamCaption})}
+
+
+
+Constructeur avec parametres Création d\textquotesingle{}un objet \mbox{\hyperlink{classbornes_quebec_1_1_registre_borne}{Registre\+Borne}} à partir de valeurs passées en paramètres. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em p\+\_\+nom\+Registre\+Borne} & un string qui représente la version du Registre. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+p\+\_\+type ne doit pas être vide). 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+m\+\_\+nom\+Registre\+Borne prend la valeur de p\+\_\+nom\+Registre\+Borne 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classbornes_quebec_1_1_registre_borne_aba7564e751a84cef5e1d659a922472be}\label{classbornes_quebec_1_1_registre_borne_aba7564e751a84cef5e1d659a922472be}} 
+\index{bornesQuebec::RegistreBorne@{bornesQuebec::RegistreBorne}!RegistreBorne@{RegistreBorne}}
+\index{RegistreBorne@{RegistreBorne}!bornesQuebec::RegistreBorne@{bornesQuebec::RegistreBorne}}
+\doxysubsubsection{\texorpdfstring{RegistreBorne()}{RegistreBorne()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bornes\+Quebec\+::\+Registre\+Borne\+::\+Registre\+Borne (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classbornes_quebec_1_1_registre_borne}{Registre\+Borne}} \&}]{p\+\_\+registre\+Borne }\end{DoxyParamCaption})}
+
+
+
+Constructeur copie Création d\textquotesingle{}un objet \mbox{\hyperlink{classbornes_quebec_1_1_registre_borne}{Registre\+Borne}} à partir d\textquotesingle{}un autre \mbox{\hyperlink{classbornes_quebec_1_1_registre_borne}{Registre\+Borne}} passées en paramètres. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em p\+\_\+registre\+Borne} & un objet Registre\+Born. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classbornes_quebec_1_1_registre_borne_aba7564e751a84cef5e1d659a922472be_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classbornes_quebec_1_1_registre_borne_a949bbdac9abf3e6f4b86cb6ec4d1155b}\label{classbornes_quebec_1_1_registre_borne_a949bbdac9abf3e6f4b86cb6ec4d1155b}} 
+\index{bornesQuebec::RegistreBorne@{bornesQuebec::RegistreBorne}!ajouteBorne@{ajouteBorne}}
+\index{ajouteBorne@{ajouteBorne}!bornesQuebec::RegistreBorne@{bornesQuebec::RegistreBorne}}
+\doxysubsubsection{\texorpdfstring{ajouteBorne()}{ajouteBorne()}}
+{\footnotesize\ttfamily void bornes\+Quebec\+::\+Registre\+Borne\+::ajoute\+Borne (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classbornes_quebec_1_1_borne}{Borne}} \&}]{p\+\_\+\+Borne }\end{DoxyParamCaption})}
+
+
+
+ajouter une borne au vecteur de bornes seulement si la borne n’est pas déjà présente dans cette liste. Autrement, il ne « se passe rien », 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em p\+\_\+borne} & un objet de typle \mbox{\hyperlink{classbornes_quebec_1_1_borne}{Borne}}. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{classbornes_quebec_1_1_registre_borne_a949bbdac9abf3e6f4b86cb6ec4d1155b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classbornes_quebec_1_1_registre_borne_a20158e9eb72265914b64c3a43aaa159b}\label{classbornes_quebec_1_1_registre_borne_a20158e9eb72265914b64c3a43aaa159b}} 
+\index{bornesQuebec::RegistreBorne@{bornesQuebec::RegistreBorne}!operator=@{operator=}}
+\index{operator=@{operator=}!bornesQuebec::RegistreBorne@{bornesQuebec::RegistreBorne}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{classbornes_quebec_1_1_registre_borne}{Registre\+Borne}} \& bornes\+Quebec\+::\+Registre\+Borne\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classbornes_quebec_1_1_registre_borne}{Registre\+Borne}} \&}]{p\+\_\+registre\+Borne }\end{DoxyParamCaption})}
+
+
+
+L’opérateur d\textquotesingle{}assignation. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em p\+\_\+registre\+Borne} & un objet Registre\+Born. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+l\textquotesingle{}objet courant sous forme de copie profond de l\textquotesingle{}objet Registre\+Born passé en paramétre. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classbornes_quebec_1_1_registre_borne_a20158e9eb72265914b64c3a43aaa159b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classbornes_quebec_1_1_registre_borne_a1a49504d5dfedf3c3ea490ec938c9cc4}\label{classbornes_quebec_1_1_registre_borne_a1a49504d5dfedf3c3ea490ec938c9cc4}} 
+\index{bornesQuebec::RegistreBorne@{bornesQuebec::RegistreBorne}!reqNomRegistreBorne@{reqNomRegistreBorne}}
+\index{reqNomRegistreBorne@{reqNomRegistreBorne}!bornesQuebec::RegistreBorne@{bornesQuebec::RegistreBorne}}
+\doxysubsubsection{\texorpdfstring{reqNomRegistreBorne()}{reqNomRegistreBorne()}}
+{\footnotesize\ttfamily const string \& bornes\+Quebec\+::\+Registre\+Borne\+::req\+Nom\+Registre\+Borne (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur pour la version du Registre. 
+
+\begin{DoxyReturn}{Returns}
+m\+\_\+nom\+Registre\+Borne la version du Registre. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classbornes_quebec_1_1_registre_borne_a1a49504d5dfedf3c3ea490ec938c9cc4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classbornes_quebec_1_1_registre_borne_a05c08ed3e21c1b292eb004fd73419306}\label{classbornes_quebec_1_1_registre_borne_a05c08ed3e21c1b292eb004fd73419306}} 
+\index{bornesQuebec::RegistreBorne@{bornesQuebec::RegistreBorne}!reqRegistreBorneFormate@{reqRegistreBorneFormate}}
+\index{reqRegistreBorneFormate@{reqRegistreBorneFormate}!bornesQuebec::RegistreBorne@{bornesQuebec::RegistreBorne}}
+\doxysubsubsection{\texorpdfstring{reqRegistreBorneFormate()}{reqRegistreBorneFormate()}}
+{\footnotesize\ttfamily string bornes\+Quebec\+::\+Registre\+Borne\+::req\+Registre\+Borne\+Formate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Affiche les informations du registre de bornes. sous forme d\textquotesingle{}une chaîne de caractère formatée. 
+
+\begin{DoxyReturn}{Returns}
+une chaîne de caractère contient les informations de l\textquotesingle{}objet 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classbornes_quebec_1_1_registre_borne_a05c08ed3e21c1b292eb004fd73419306_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classbornes_quebec_1_1_registre_borne_a41852ee66c44495f832ca8506ebc55d2}\label{classbornes_quebec_1_1_registre_borne_a41852ee66c44495f832ca8506ebc55d2}} 
+\index{bornesQuebec::RegistreBorne@{bornesQuebec::RegistreBorne}!reqVBornes@{reqVBornes}}
+\index{reqVBornes@{reqVBornes}!bornesQuebec::RegistreBorne@{bornesQuebec::RegistreBorne}}
+\doxysubsubsection{\texorpdfstring{reqVBornes()}{reqVBornes()}}
+{\footnotesize\ttfamily const vector$<$ \mbox{\hyperlink{classbornes_quebec_1_1_borne}{Borne}} $\ast$ $>$ \& bornes\+Quebec\+::\+Registre\+Borne\+::req\+V\+Bornes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur pour la version du vecteur. 
+
+\begin{DoxyReturn}{Returns}
+m\+\_\+v\+Bornes le vecteur. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classbornes_quebec_1_1_registre_borne_a41852ee66c44495f832ca8506ebc55d2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classbornes_quebec_1_1_registre_borne_a00ecd86ae94aa8f55116974a1e25cb46}\label{classbornes_quebec_1_1_registre_borne_a00ecd86ae94aa8f55116974a1e25cb46}} 
+\index{bornesQuebec::RegistreBorne@{bornesQuebec::RegistreBorne}!verifierBornePresentePourTest@{verifierBornePresentePourTest}}
+\index{verifierBornePresentePourTest@{verifierBornePresentePourTest}!bornesQuebec::RegistreBorne@{bornesQuebec::RegistreBorne}}
+\doxysubsubsection{\texorpdfstring{verifierBornePresentePourTest()}{verifierBornePresentePourTest()}}
+{\footnotesize\ttfamily bool bornes\+Quebec\+::\+Registre\+Borne\+::verifier\+Borne\+Presente\+Pour\+Test (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classbornes_quebec_1_1_borne}{Borne}} \&}]{p\+\_\+borne }\end{DoxyParamCaption}) const}
+
+
+
+méthode permet de vérifier si la borne est déjà dans le vecteur (sur la base de l’identifiant) pour l\textquotesingle{}utiliser dans les tests de l\textquotesingle{}operateur d\textquotesingle{}assignation . 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em p\+\_\+borne} & un objet de typle \mbox{\hyperlink{classbornes_quebec_1_1_borne}{Borne}}. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retourne true si la borne est déjà dans le vecteuret false dans le cas contraire. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Registre\+Borne.\+h\item 
+\mbox{\hyperlink{_registre_borne_8cpp}{Registre\+Borne.\+cpp}}\end{DoxyCompactItemize}

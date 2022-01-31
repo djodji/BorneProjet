@@ -1,0 +1,5 @@
+<map id="bornesQuebec::Borne" name="bornesQuebec::Borne">
+<area shape="rect" id="node1" title="Classe de base." alt="" coords="164,5,325,32"/>
+<area shape="rect" id="node2" href="$classbornes_quebec_1_1_borne_fontaine.html" title="Classe dérivée de la classe Borne." alt="" coords="5,80,223,107"/>
+<area shape="rect" id="node3" href="$classbornes_quebec_1_1_borne_stationnement.html" title="Classe dérivée de la classe Borne." alt="" coords="247,80,504,107"/>
+</map>

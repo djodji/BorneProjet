@@ -1,0 +1,74 @@
+\hypertarget{_borne_fontaine_taisteur_8cpp}{}\doxysection{tests/\+Borne\+Fontaine\+Taisteur.cpp File Reference}
+\label{_borne_fontaine_taisteur_8cpp}\index{tests/BorneFontaineTaisteur.cpp@{tests/BorneFontaineTaisteur.cpp}}
+
+
+Implantation des tests unitaires de la classe Borne\+Fontaine.  
+
+
+{\ttfamily \#include $<$gtest/gtest.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Borne\+Fontaine.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Contrat\+Exception.\+h\char`\"{}}\newline
+Include dependency graph for Borne\+Fontaine\+Taisteur.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_borne_fontaine_taisteur_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_un_borne_borne_fontaine}{Un\+Borne\+Borne\+Fontaine}}
+\begin{DoxyCompactList}\small\item\em Création d\textquotesingle{}une fixture à utiliser pour les méthodes public de la classe de test. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_borne_fontaine_taisteur_8cpp_ae9da3c3b79a37c339c9af99b489eb2c0}\label{_borne_fontaine_taisteur_8cpp_ae9da3c3b79a37c339c9af99b489eb2c0}} 
+\mbox{\hyperlink{_borne_fontaine_taisteur_8cpp_ae9da3c3b79a37c339c9af99b489eb2c0}{T\+E\+ST}} (\mbox{\hyperlink{classbornes_quebec_1_1_borne_fontaine}{Borne\+Fontaine}}, Constructeur\+Defaut)
+\begin{DoxyCompactList}\small\item\em Test du Constructeur Cas valides\+: Création d\textquotesingle{}un objet Borne\+Fontaine et verification de l’assignation de tous les attributs Cas invalides\+: arrondissement vide si la ville est « Québec » \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_borne_fontaine_taisteur_8cpp_a060954c458945935048bac3bae721bdc}\label{_borne_fontaine_taisteur_8cpp_a060954c458945935048bac3bae721bdc}} 
+{\bfseries T\+E\+ST} (\mbox{\hyperlink{classbornes_quebec_1_1_borne_fontaine}{Borne\+Fontaine}}, Constructeur\+Arrondissement\+Invalide)
+\item 
+\mbox{\hyperlink{_borne_fontaine_taisteur_8cpp_a246eca880dd221cc6d9565f476d99394}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{class_un_borne_borne_fontaine}{Un\+Borne\+Borne\+Fontaine}}, req\+Ville)
+\item 
+\mbox{\hyperlink{_borne_fontaine_taisteur_8cpp_a4cfa188bd5646c2b4e8a757084b9f2ba}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{class_un_borne_borne_fontaine}{Un\+Borne\+Borne\+Fontaine}}, req\+Arrondissement)
+\item 
+\mbox{\Hypertarget{_borne_fontaine_taisteur_8cpp_a5952d28ab784b07a48a097deadb6d6b5}\label{_borne_fontaine_taisteur_8cpp_a5952d28ab784b07a48a097deadb6d6b5}} 
+\mbox{\hyperlink{_borne_fontaine_taisteur_8cpp_a5952d28ab784b07a48a097deadb6d6b5}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{class_un_borne_borne_fontaine}{Un\+Borne\+Borne\+Fontaine}}, clone)
+\begin{DoxyCompactList}\small\item\em Test de la méthode clone() Cas valide\+: faire une copie allouée sur le monceau de l\textquotesingle{}objet Borne\+Borne\+Fontaine courant Cas invalide\+: aucun. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_borne_fontaine_taisteur_8cpp_a85cc1faf52c0b85ffba11d42984836f9}\label{_borne_fontaine_taisteur_8cpp_a85cc1faf52c0b85ffba11d42984836f9}} 
+\mbox{\hyperlink{_borne_fontaine_taisteur_8cpp_a85cc1faf52c0b85ffba11d42984836f9}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{class_un_borne_borne_fontaine}{Un\+Borne\+Borne\+Fontaine}}, req\+Borne\+Formate)
+\begin{DoxyCompactList}\small\item\em Test de la méthode string req\+Borne\+Formate() Cas valides\+: vérifier le retour des information sur l\textquotesingle{}objets Borne\+Borne\+Fontaine formatés Cas invalides\+: aucun. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implantation des tests unitaires de la classe Borne\+Fontaine. 
+
+\begin{DoxyAuthor}{Author}
+Abdelhafid El kanfoud 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4 avril 2011 $\ast$ 
+
+2 juin 2011 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_borne_fontaine_taisteur_8cpp_a4cfa188bd5646c2b4e8a757084b9f2ba}\label{_borne_fontaine_taisteur_8cpp_a4cfa188bd5646c2b4e8a757084b9f2ba}} 
+\index{BorneFontaineTaisteur.cpp@{BorneFontaineTaisteur.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!BorneFontaineTaisteur.cpp@{BorneFontaineTaisteur.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily T\+E\+S\+T\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_un_borne_borne_fontaine}{Un\+Borne\+Borne\+Fontaine}}}]{,  }\item[{req\+Arrondissement}]{ }\end{DoxyParamCaption})}
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000002}{Test}}]Test de la méthode req\+Arrondissement() Cas valide\+: vérifier le retour de l\textquotesingle{}Arrondissement de la Borne\+Borne\+Fontaine Cas invalide\+: aucun \end{DoxyRefDesc}
+\mbox{\Hypertarget{_borne_fontaine_taisteur_8cpp_a246eca880dd221cc6d9565f476d99394}\label{_borne_fontaine_taisteur_8cpp_a246eca880dd221cc6d9565f476d99394}} 
+\index{BorneFontaineTaisteur.cpp@{BorneFontaineTaisteur.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!BorneFontaineTaisteur.cpp@{BorneFontaineTaisteur.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily T\+E\+S\+T\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_un_borne_borne_fontaine}{Un\+Borne\+Borne\+Fontaine}}}]{,  }\item[{req\+Ville}]{ }\end{DoxyParamCaption})}
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000001}{Test}}]Test de la méthode req\+Ville() Cas valide\+: vérifier le retour de la ville de la Borne\+Borne\+Fontaine Cas invalide\+: aucun \end{DoxyRefDesc}

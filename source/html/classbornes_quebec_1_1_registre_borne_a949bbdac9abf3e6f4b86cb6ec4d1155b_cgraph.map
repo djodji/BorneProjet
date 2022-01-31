@@ -1,0 +1,4 @@
+<map id="bornesQuebec::RegistreBorne::ajouteBorne" name="bornesQuebec::RegistreBorne::ajouteBorne">
+<area shape="rect" id="node1" title="ajouter une borne au vecteur de bornes seulement si la borne n’est pas déjà présente dans cette liste..." alt="" coords="5,5,220,47"/>
+<area shape="rect" id="node2" href="$classbornes_quebec_1_1_borne.html#ad7fce9a194716bd47a127bd47ea76d62" title="Affiche les informations de l&#39;objet Borne sous forme d&#39;une chaîne de caractère formatée." alt="" coords="268,5,429,47"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="Borne.h" name="Borne.h">
+<area shape="rect" id="node1" title="Prototype de la classe Borne." alt="" coords="301,5,373,32"/>
+<area shape="rect" id="node2" href="$_borne_8cpp.html" title="Implementation de la classe Borne." alt="" coords="5,80,92,107"/>
+<area shape="rect" id="node3" href="$_borne_exception_8h_source.html" title=" " alt="" coords="269,80,405,107"/>
+<area shape="rect" id="node5" href="$_borne_fontaine_8h.html" title="Implementation de la classe BorneFontaine." alt="" coords="117,80,245,107"/>
+<area shape="rect" id="node7" href="$_borne_stationnement_8h.html" title="Implementation de la classe BorneFontaine." alt="" coords="429,80,597,107"/>
+<area shape="rect" id="node8" href="$_registre_borne_8h.html" title="Implementation de la classe BorneFontaine." alt="" coords="621,80,748,107"/>
+<area shape="rect" id="node4" href="$_registre_borne_8cpp.html" title="Implementation de la classe RegistreBorne." alt="" coords="445,155,586,181"/>
+<area shape="rect" id="node6" href="$_borne_fontaine_8cpp.html" title="Implementation de la classe BorneFontaine." alt="" coords="109,155,252,181"/>
+</map>

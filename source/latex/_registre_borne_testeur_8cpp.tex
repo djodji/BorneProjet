@@ -1,0 +1,109 @@
+\hypertarget{_registre_borne_testeur_8cpp}{}\doxysection{tests/\+Registre\+Borne\+Testeur.cpp File Reference}
+\label{_registre_borne_testeur_8cpp}\index{tests/RegistreBorneTesteur.cpp@{tests/RegistreBorneTesteur.cpp}}
+
+
+Implantation des tests unitaires de la classe Registre\+Borne.  
+
+
+{\ttfamily \#include $<$gtest/gtest.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Contrat\+Exception.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Registre\+Borne.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Borne\+Fontaine.\+h\char`\"{}}\newline
+Include dependency graph for Registre\+Borne\+Testeur.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_registre_borne_testeur_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classun_registre_borne}{un\+Registre\+Borne}}
+\begin{DoxyCompactList}\small\item\em Création d\textquotesingle{}une fixture à utiliser pour les méthodes public de la classe Registre\+Borne. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_registre_borne_testeur_8cpp_a8aa353590eb2efdfa86ee03edcb58311}\label{_registre_borne_testeur_8cpp_a8aa353590eb2efdfa86ee03edcb58311}} 
+\mbox{\hyperlink{_registre_borne_testeur_8cpp_a8aa353590eb2efdfa86ee03edcb58311}{T\+E\+ST}} (\mbox{\hyperlink{classbornes_quebec_1_1_registre_borne}{Registre\+Borne}}, Constructeur\+Defaut)
+\begin{DoxyCompactList}\small\item\em Test du Constructeur Cas valides\+: Création d\textquotesingle{}un objet Registre\+Borne et verification de l’assignation de tous les attributs Cas invalides\+: version du Registre vide. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_registre_borne_testeur_8cpp_aa0924dd19b73fb036d321c446ed432b4}\label{_registre_borne_testeur_8cpp_aa0924dd19b73fb036d321c446ed432b4}} 
+{\bfseries T\+E\+ST} (\mbox{\hyperlink{classbornes_quebec_1_1_registre_borne}{Registre\+Borne}}, Constructeur\+Nom\+Registre\+Borne\+Invalide)
+\item 
+\mbox{\Hypertarget{_registre_borne_testeur_8cpp_aff2f064e38f8cf3df8b8c581efa0be45}\label{_registre_borne_testeur_8cpp_aff2f064e38f8cf3df8b8c581efa0be45}} 
+\mbox{\hyperlink{_registre_borne_testeur_8cpp_aff2f064e38f8cf3df8b8c581efa0be45}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classun_registre_borne}{un\+Registre\+Borne}}, constructeur\+Copie)
+\begin{DoxyCompactList}\small\item\em Test du Constructeur copie Cas valides\+: Création d\textquotesingle{}un objet Registre\+Borne et verification de l’assignation de tous les attributs Cas invalides\+: aucun. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_registre_borne_testeur_8cpp_a638a47befad78c00ad514b4d9c101463}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classun_registre_borne}{un\+Registre\+Borne}}, Assignation\+Registre\+A\+Registre)
+\item 
+\mbox{\Hypertarget{_registre_borne_testeur_8cpp_aa4b3b6d8f56ffede95abe9623a57b8c9}\label{_registre_borne_testeur_8cpp_aa4b3b6d8f56ffede95abe9623a57b8c9}} 
+{\bfseries T\+E\+S\+T\+\_\+F} (\mbox{\hyperlink{classun_registre_borne}{un\+Registre\+Borne}}, Assignation\+Registre\+A\+Lui\+Meme)
+\item 
+\mbox{\Hypertarget{_registre_borne_testeur_8cpp_a4814eaffcbfea5b8946586d2e7dd348a}\label{_registre_borne_testeur_8cpp_a4814eaffcbfea5b8946586d2e7dd348a}} 
+{\bfseries T\+E\+S\+T\+\_\+F} (\mbox{\hyperlink{classun_registre_borne}{un\+Registre\+Borne}}, egistre\+Apres\+Assignation\+Autre\+Registre)
+\item 
+\mbox{\hyperlink{_registre_borne_testeur_8cpp_a98010815eb87b2bd37d3a83356ee088d}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classun_registre_borne}{un\+Registre\+Borne}}, req\+Nom\+Registre\+Borne)
+\item 
+\mbox{\hyperlink{_registre_borne_testeur_8cpp_a644d3c35175c00fb481d339f403c6c9d}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classun_registre_borne}{un\+Registre\+Borne}}, req\+V\+Bornes)
+\item 
+\mbox{\hyperlink{_registre_borne_testeur_8cpp_aca77c47e2411f1e1814062f781ae3363}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classun_registre_borne}{un\+Registre\+Borne}}, ajoute\+Nouveau\+Borne)
+\item 
+\mbox{\Hypertarget{_registre_borne_testeur_8cpp_a0cdc102dfa4e5ee42c1d52ec81f577bb}\label{_registre_borne_testeur_8cpp_a0cdc102dfa4e5ee42c1d52ec81f577bb}} 
+{\bfseries T\+E\+S\+T\+\_\+F} (\mbox{\hyperlink{classun_registre_borne}{un\+Registre\+Borne}}, ajoute\+Borne\+Existant)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implantation des tests unitaires de la classe Registre\+Borne. 
+
+\begin{DoxyAuthor}{Author}
+Abdelhafid El kanfoud 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+4 avril 2011 $\ast$ 
+
+2 juin 2011 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_registre_borne_testeur_8cpp_aca77c47e2411f1e1814062f781ae3363}\label{_registre_borne_testeur_8cpp_aca77c47e2411f1e1814062f781ae3363}} 
+\index{RegistreBorneTesteur.cpp@{RegistreBorneTesteur.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!RegistreBorneTesteur.cpp@{RegistreBorneTesteur.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily T\+E\+S\+T\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classun_registre_borne}{un\+Registre\+Borne}}}]{,  }\item[{ajoute\+Nouveau\+Borne}]{ }\end{DoxyParamCaption})}
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000018}{Test}}]Test de la méthode void ajoute\+Borne (const Borne\& p\+\_\+\+Borne); Cas valide\+: vérifier l\textquotesingle{}ajout d\textquotesingle{}un objets Bornes si n\textquotesingle{}est pas déja ajouter vérifier l\textquotesingle{}ajout d\textquotesingle{}un objets Bornes déja ajouter Cas invalide\+: aucun \end{DoxyRefDesc}
+\mbox{\Hypertarget{_registre_borne_testeur_8cpp_a638a47befad78c00ad514b4d9c101463}\label{_registre_borne_testeur_8cpp_a638a47befad78c00ad514b4d9c101463}} 
+\index{RegistreBorneTesteur.cpp@{RegistreBorneTesteur.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!RegistreBorneTesteur.cpp@{RegistreBorneTesteur.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily T\+E\+S\+T\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classun_registre_borne}{un\+Registre\+Borne}}}]{,  }\item[{Assignation\+Registre\+A\+Registre}]{ }\end{DoxyParamCaption})}
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000015}{Test}}]Test de l\textquotesingle{}operateur d\textquotesingle{}assignation Cas valide\+: vérifier f\+\_\+registre aprés l\textquotesingle{}assignation d\textquotesingle{}un registre p\+\_\+registre au registre f\+\_\+registre. vérifier p\+\_\+registre aprés l\textquotesingle{}assignation d\textquotesingle{}un registre p\+\_\+registre à lui-\/même. vérifier p\+\_\+registre aprés l\textquotesingle{}assignation d\textquotesingle{}un registre p\+\_\+registre au registre f\+\_\+registre. Cas invalide\+: aucun \end{DoxyRefDesc}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{_registre_borne_testeur_8cpp_a638a47befad78c00ad514b4d9c101463_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_registre_borne_testeur_8cpp_a98010815eb87b2bd37d3a83356ee088d}\label{_registre_borne_testeur_8cpp_a98010815eb87b2bd37d3a83356ee088d}} 
+\index{RegistreBorneTesteur.cpp@{RegistreBorneTesteur.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!RegistreBorneTesteur.cpp@{RegistreBorneTesteur.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily T\+E\+S\+T\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classun_registre_borne}{un\+Registre\+Borne}}}]{,  }\item[{req\+Nom\+Registre\+Borne}]{ }\end{DoxyParamCaption})}
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000016}{Test}}]Test de la méthode req\+Nom\+Registre\+Borne() Cas valide\+: vérifier le retour de la version du Registre Cas invalide\+: aucun \end{DoxyRefDesc}
+\mbox{\Hypertarget{_registre_borne_testeur_8cpp_a644d3c35175c00fb481d339f403c6c9d}\label{_registre_borne_testeur_8cpp_a644d3c35175c00fb481d339f403c6c9d}} 
+\index{RegistreBorneTesteur.cpp@{RegistreBorneTesteur.cpp}!TEST\_F@{TEST\_F}}
+\index{TEST\_F@{TEST\_F}!RegistreBorneTesteur.cpp@{RegistreBorneTesteur.cpp}}
+\doxysubsubsection{\texorpdfstring{TEST\_F()}{TEST\_F()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily T\+E\+S\+T\+\_\+F (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classun_registre_borne}{un\+Registre\+Borne}}}]{,  }\item[{req\+V\+Bornes}]{ }\end{DoxyParamCaption})}
+
+\begin{DoxyRefDesc}{Test}
+\item[\mbox{\hyperlink{test__test000017}{Test}}]Test de la méthode req\+V\+Bornes() Cas valide\+: vérifier la capacité du vecteur Cas invalide\+: aucun \end{DoxyRefDesc}
